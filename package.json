@@ -1,22 +1,23 @@
 {
-  "name": "ceraoptima-payments",
+  "name": "pagos-ceraoptima",
   "version": "0.1.0",
-  "description": "Internal package for Gadget app ceraoptima-payments (Development environment)",
+  "description": "Internal package for Gadget app pagos-ceraoptima (Development environment)",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "vite:build": "NODE_ENV=production vite build"
   },
   "dependencies": {
-    "@gadget-client/ceraoptima-payments": "link:.gadget/client",
+    "@gadget-client/pagos-ceraoptima": "link:.gadget/client",
     "@gadgetinc/react": "^0.15.15",
     "gadget-server": "link:.gadget/server",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "6.15.0",
     "axios": "^1.7.2",
-    "uuid": "^10.0.0",
-    "nanoid": "^5.0.7"
+    "mysql2": "^3.10.1",
+    "nanoid": "^3.3.7",
+    "dayjs": "^1.11.12"
   },
   "devDependencies": {
     "@types/node": "^20.12.8",
